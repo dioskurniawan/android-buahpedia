@@ -20,7 +20,7 @@ public class ListActivity extends Activity {
 
         // masukkan item ke dalam data
         final ArrayList<ListData> data = new ArrayList<>();
-        data.add(new ListData(R.drawable.buah_anggur, "Anggur", "Keterangan tentang buah anggur."));
+        data.add(new ListData(R.drawable.buah_anggur, "Anggur", "Anggur merupakan tanaman buah berupa perdu merambat yang termasuk ke dalam keluarga Vitaceae.\n\nBuah ini biasanya digunakan untuk membuat jus anggur, jelly, minuman anggur, minyak biji anggur dan kismis, atau dimakan langsung.\n\nBuah ini juga dikenal karena mengandung banyak senyawa polifenol dan resveratol yang berperan aktif dalam berbagai metabolisme tubuh, serta mampu mencegah terbentuknya sel kanker dan berbagai penyakit lainnya.\n\nAktivitas ini juga terkait dengan adanya senyawa metabolit sekunder di dalam buah anggur yang berperan sebagai senyawa antioksidan yang mampu menangkal radikal bebas."));
         data.add(new ListData(R.drawable.buah_apel, "Apel", "Keterangan tentang buah apel."));
         data.add(new ListData(R.drawable.buah_jeruk, "Jeruk", "Keterangan tentang buah jeruk."));
         data.add(new ListData(R.drawable.buah_kiwi, "Kiwi", "Keterangan tentang buah kiwi."));

@@ -2,8 +2,12 @@ package com.omrobbie.buahpedia;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import static com.omrobbie.buahpedia.R.layout.listitem;
 
 public class ListDetail extends Activity {
 
@@ -26,5 +30,8 @@ public class ListDetail extends Activity {
 
         TextView txtDetailDescription = (TextView) findViewById(R.id.txtDetailDescription);
         txtDetailDescription.setText(getDescription);
+
+        // handle masalah scroll text description yang panjang di layout detail
+        txtDetailDescription.setMovementMethod(new ScrollingMovementMethod());
     }
 }
