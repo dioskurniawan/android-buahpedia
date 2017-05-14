@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import static android.R.attr.description;
+
 public class ListAdapter extends ArrayAdapter<ListData> {
     Context context;
     int resource;
