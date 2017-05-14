@@ -5,17 +5,11 @@
     android:background="@drawable/tiles"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
+    <ImageView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:text="Daftar Buah-buahan"
-        android:textAllCaps="true"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:textColor="#5e5e5e"
-        android:background="#629bff90"
-        android:gravity="center_horizontal"/>
+        android:src="@drawable/listitem_title"
+        android:background="#629bff90"/>
 
     <ListView
         android:id="@+id/lvList"
