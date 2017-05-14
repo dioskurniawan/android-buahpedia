@@ -2,6 +2,8 @@ package com.omrobbie.buahpedia;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class ListDetail extends Activity {
 
@@ -14,5 +16,15 @@ public class ListDetail extends Activity {
         int getImage = getIntent().getExtras().getInt("image");
         String getTitle = getIntent().getExtras().getString("title");
         String getDescription = getIntent().getExtras().getString("description");
+
+        // tampilkan data tersebut ke layout listitem_detail
+        TextView txtDetailTitle = (TextView) findViewById(R.id.txtDetailTitle);
+        txtDetailTitle.setText(getTitle);
+
+        ImageView imgDetailImage = (ImageView) findViewById(R.id.imgDetailImage);
+        imgDetailImage.setImageResource(getImage);
+
+        TextView txtDetailDescription = (TextView) findViewById(R.id.txtDetailDescription);
+        txtDetailDescription.setText(getDescription);
     }
 }
