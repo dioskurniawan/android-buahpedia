@@ -30,8 +30,5 @@ public class ListDetail extends Activity {
 
         TextView txtDetailDescription = (TextView) findViewById(R.id.txtDetailDescription);
         txtDetailDescription.setText(getDescription);
-
-        // handle masalah scroll text description yang panjang di layout detail
-        txtDetailDescription.setMovementMethod(new ScrollingMovementMethod());
     }
 }
