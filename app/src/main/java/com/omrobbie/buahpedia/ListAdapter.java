@@ -10,11 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
-
-import static android.R.id.list;
 
 public class ListAdapter extends ArrayAdapter<ListData> {
     Context context;

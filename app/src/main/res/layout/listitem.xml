@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Title"
-        android:textSize="20dp"
+        android:textSize="34dp"
         android:textStyle="bold"
         android:layout_toRightOf="@id/imgImage"/>
 
@@ -25,9 +25,10 @@
         android:id="@+id/txtDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Description"
-        android:textColor="#7d9ed6"
+        android:layout_marginTop="8dp"
+        android:text="Short description"
+        android:textSize="16dp"
+        android:textColor="#084fc9"
         android:layout_toRightOf="@id/imgImage"
         android:layout_below="@id/txtTitle"/>
 </RelativeLayout>
